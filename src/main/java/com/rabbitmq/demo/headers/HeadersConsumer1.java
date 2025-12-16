@@ -36,6 +36,7 @@ public class HeadersConsumer1 {
         headers.put("x-match", "all");
         // 指定要匹配的头信息
         headers.put("type", "order");
+        // 添加优先级头信息，要求消息必须同时具有type=order和priority=high的头信息才能匹配
         headers.put("priority", "high");
 
         // 将队列与交换机绑定，并设置头信息匹配规则
