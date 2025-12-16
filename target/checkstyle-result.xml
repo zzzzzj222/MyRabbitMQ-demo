@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\basic\BasicConsumer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="9" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="15" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="17" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="17" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="23" column="9" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="29" column="9" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="39" column="9" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\basic\BasicProducer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="10" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="14" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="16" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="18" column="27" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="24" column="5" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="38" column="5" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\confirm\ConfirmConsumer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="9" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="15" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="17" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="19" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="19" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="39" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="39" column="80" severity="error" message="&apos;{&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="39" column="81" severity="error" message="&apos;}&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\confirm\ConfirmPublisher.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="14" column="8" severity="error" message="无用导入 - java.util.concurrent.atomic.AtomicInteger 。" source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="30" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="32" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="36" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="36" column="27" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="52" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="76" column="24" severity="error" message="块中应至少有一条代码语句。" source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+<error line="90" column="48" severity="error" message="&apos;1000000.0&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="96" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="114" column="21" severity="error" message="&apos;100&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="124" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="141" column="48" severity="error" message="&apos;1000000.0&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="147" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="163" severity="error" message="本行字符数 94个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="174" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="213" column="37" severity="error" message="&apos;100&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="221" column="48" severity="error" message="&apos;1000000.0&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\delay\DelayQueueConsumer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="28" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="30" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="32" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="36" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="36" column="27" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="45" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="60" severity="error" message="本行字符数 117个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="60" column="34" severity="error" message="参数： consumerTag 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="60" column="54" severity="error" message="参数： envelope 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="60" column="73" severity="error" message="参数： properties 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="60" column="106" severity="error" message="参数： body 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\delay\DelayQueueProducer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="33" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="35" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="39" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="41" severity="error" message="本行字符数 101个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="41" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="41" column="27" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="77" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="85" column="23" severity="error" message="&apos;5000&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="87" severity="error" message="本行字符数 95个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="92" column="23" severity="error" message="&apos;10000&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="94" severity="error" message="本行字符数 96个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="99" column="23" severity="error" message="&apos;2000&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="101" severity="error" message="本行字符数 95个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\dlx\DLXConsumer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="18" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="20" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="26" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="26" column="27" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="35" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="50" severity="error" message="本行字符数 117个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="50" column="34" severity="error" message="参数： consumerTag 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" column="54" severity="error" message="参数： envelope 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" column="73" severity="error" message="参数： properties 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" column="106" severity="error" message="参数： body 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="61" column="34" severity="error" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\dlx\DLXMainQueueConsumer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="20" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="22" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="26" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="28" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="30" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="30" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="39" severity="error" message="本行字符数 85个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="51" column="44" severity="error" message="&apos;5000&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="52" column="43" severity="error" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="55" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="67" severity="error" message="本行字符数 144个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="67" column="40" severity="error" message="参数： consumerTag 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="67" column="60" severity="error" message="参数： envelope 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="67" column="79" severity="error" message="参数： properties 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="67" column="112" severity="error" message="参数： body 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="79" severity="error" message="本行字符数 84个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="87" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\dlx\DLXProducer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="31" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="33" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="35" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="39" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="41" severity="error" message="本行字符数 103个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="41" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="41" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" severity="error" message="本行字符数 85个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="65" column="44" severity="error" message="&apos;5000&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="67" column="43" severity="error" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="70" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="81" severity="error" message="本行字符数 87个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="90" severity="error" message="本行字符数 101个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="96" severity="error" message="本行字符数 110个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="101" column="30" severity="error" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="103" severity="error" message="本行字符数 94个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="109" column="31" severity="error" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="110" severity="error" message="本行字符数 102个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\headers\HeadersConsumer1.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="11" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="18" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="20" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="22" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="22" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="53" severity="error" message="本行字符数 87个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="54" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="62" severity="error" message="本行字符数 82个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="62" column="79" severity="error" message="&apos;{&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="62" column="80" severity="error" message="&apos;}&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\headers\HeadersConsumer2.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="11" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="18" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="20" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="22" column="27" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" severity="error" message="本行字符数 86个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="54" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\headers\HeadersProducer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="25" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="27" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="29" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="29" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="29" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="59" severity="error" message="本行字符数 87个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="65" severity="error" message="本行字符数 95个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="71" severity="error" message="本行字符数 94个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="77" severity="error" message="本行字符数 93个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\mirror\MirrorQueueConsumer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="30" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="32" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="34" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="34" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="57" severity="error" message="本行字符数 144个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="57" column="40" severity="error" message="参数： consumerTag 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="57" column="60" severity="error" message="参数： envelope 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="57" column="79" severity="error" message="参数： properties 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="57" column="112" severity="error" message="参数： body 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="64" severity="error" message="本行字符数 82个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="70" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\mirror\MirrorQueueProducer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="36" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="38" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="40" severity="error" message="本行字符数 101个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="40" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="40" column="27" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="55" severity="error" message="本行字符数 92个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="59" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="66" column="26" severity="error" message="&apos;5&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="68" severity="error" message="本行字符数 92个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\priority\PriorityConsumer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="20" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="22" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="26" severity="error" message="本行字符数 103个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="26" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="26" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="49" severity="error" message="本行字符数 144个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="49" column="40" severity="error" message="参数： consumerTag 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="49" column="60" severity="error" message="参数： envelope 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="49" column="79" severity="error" message="参数： properties 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="49" column="112" severity="error" message="参数： body 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="52" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="56" severity="error" message="本行字符数 118个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="57" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="60" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="61" severity="error" message="本行字符数 90个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="62" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\priority\PriorityProducer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="26" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="28" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="32" severity="error" message="本行字符数 101个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="32" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="32" column="27" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="49" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="56" severity="error" message="本行字符数 91个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="61" column="27" severity="error" message="&apos;5&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="62" severity="error" message="本行字符数 91个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="67" column="27" severity="error" message="&apos;10&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="68" severity="error" message="本行字符数 91个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="74" severity="error" message="本行字符数 92个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="79" column="27" severity="error" message="&apos;9&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="80" severity="error" message="本行字符数 92个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\pubsub\PubSubConsumer1.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="11" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="20" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="22" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="24" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="24" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\pubsub\PubSubConsumer2.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="11" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="19" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="22" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="24" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="26" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="26" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="26" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\pubsub\PubSubProducer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="12" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="23" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="25" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="25" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="25" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="36" column="30" severity="error" message="&apos;5&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="46" column="30" severity="error" message="&apos;1000&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\routing\RoutingConsumer1.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="11" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="20" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="22" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="24" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="24" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" severity="error" message="本行字符数 94个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="55" severity="error" message="本行字符数 82个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="55" column="79" severity="error" message="&apos;{&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="55" column="80" severity="error" message="&apos;}&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\routing\RoutingConsumer2.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="11" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="20" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="22" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="24" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="24" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="52" severity="error" message="本行字符数 94个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="57" severity="error" message="本行字符数 82个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="57" column="79" severity="error" message="&apos;{&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="57" column="80" severity="error" message="&apos;}&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\routing\RoutingProducer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="12" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="22" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" column="3" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="24" column="27" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="60" severity="error" message="本行字符数 86个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="64" column="22" severity="error" message="&apos;1000&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\topic\TopicConsumer1.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="9" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="11" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="23" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="25" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="25" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="25" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" severity="error" message="本行字符数 94个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="55" severity="error" message="本行字符数 82个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="55" column="79" severity="error" message="&apos;{&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="55" column="80" severity="error" message="&apos;}&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\topic\TopicConsumer2.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="11" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="25" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="27" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="29" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="29" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="29" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" severity="error" message="本行字符数 98个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="56" severity="error" message="本行字符数 94个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="61" severity="error" message="本行字符数 82个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="61" column="79" severity="error" message="&apos;{&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="61" column="80" severity="error" message="&apos;}&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\topic\TopicProducer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="10" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="12" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="20" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="22" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="24" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="24" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="61" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="64" severity="error" message="本行字符数 86个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="65" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="67" severity="error" message="本行字符数 92个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="68" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="71" column="30" severity="error" message="&apos;1000&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\utils\RabbitMQUtils.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="10" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="14" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="5" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="27" column="25" severity="error" message="&apos;5672&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="36" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="43" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="47" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="58" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="63" column="40" severity="error" message="参数： connection 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="73" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="78" column="37" severity="error" message="参数： channel 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\workqueue\WorkQueueConsumer1.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="9" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="14" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="18" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="18" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="9" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="38" column="9" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="49" column="30" severity="error" message="&apos;1000&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="55" column="17" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="62" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="66" column="9" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="74" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\workqueue\WorkQueueConsumer2.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="3" column="27" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.rabbitmq.client.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="9" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="14" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="18" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="18" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="9" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="37" column="9" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="48" column="30" severity="error" message="&apos;200&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="54" column="17" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="59" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="63" column="9" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="67" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\workqueue\WorkQueueProducer.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="10" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="15" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="17" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="19" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="19" column="29" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="9" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="40" column="30" severity="error" message="&apos;10&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="43" column="13" severity="error" message="Javadoc注释放在错误的位置。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="45" severity="error" message="本行字符数 86个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="52" column="30" severity="error" message="&apos;500&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+</checkstyle>
