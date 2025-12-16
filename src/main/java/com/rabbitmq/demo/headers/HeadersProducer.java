@@ -12,14 +12,14 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * Headers交换机生产者
- *
+ * <p>
  * Headers交换机是RabbitMQ的一种高级路由机制：
  * 1. 它忽略路由键（Routing Key）
  * 2. 根据消息头（Message Headers）进行消息路由
  * 3. 支持两种匹配模式：
- *    - "x-match=all": 所有指定的头信息都必须匹配
- *    - "x-match=any": 只要有一个指定的头信息匹配即可
- *
+ * - "x-match=all": 所有指定的头信息都必须匹配
+ * - "x-match=any": 只要有一个指定的头信息匹配即可
+ * <p>
  * 适用场景：需要基于多个属性进行复杂路由决策的情况
  */
 public class HeadersProducer {
@@ -62,6 +62,10 @@ public class HeadersProducer {
         propsBuilder.headers(orderHeaders);
         String orderMessage = "新订单：#1001 - 购买笔记本电脑";
         // 发送消息到headers交换机，注意路由键为空字符串（headers交换机忽略路由键）
+        /*
+        propsBuilder.build(): 构建消息属性对象，包含消息的元数据
+        orderMessage.getBytes(): 将订单消息字符串转换为字节数组进行传输
+         */
         channel.basicPublish(EXCHANGE_NAME, "", propsBuilder.build(), orderMessage.getBytes());
         System.out.println("[生产者] 发送订单消息: '" + orderMessage + "'");
 
