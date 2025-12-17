@@ -1,3 +1,4 @@
+D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\quorum\QuorumQueueProducer.java
 D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\confirm\ConfirmPublisher.java
 D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\priority\PriorityProducer.java
 D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\basic\BasicProducer.java
@@ -26,4 +27,5 @@ D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\mirror\MirrorQueuePro
 D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\topic\TopicProducer.java
 D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\basic\BasicConsumer.java
 D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\confirm\ConfirmConsumer.java
+D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\quorum\QuorumQueueConsumer.java
 D:\IdeaProjects\MyRabbitMQ\src\main\java\com\rabbitmq\demo\priority\PriorityConsumer.java
