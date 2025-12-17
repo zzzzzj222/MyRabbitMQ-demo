@@ -53,6 +53,15 @@ public class MirrorQueueConsumer {
 
         // 定义镜像队列消费者
         Consumer consumer = new DefaultConsumer(channel) {
+            /**
+             * 处理RabbitMQ消息投递的回调方法
+             * 
+             * @param consumerTag 消费者标签，用于标识消费者
+             * @param envelope    消息信封，包含消息的元数据信息
+             * @param properties  消息属性，包含消息的附加属性
+             * @param body        消息体内容，以字节数组形式存储
+             * @throws IOException 当IO操作出现异常时抛出
+             */
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties,
                     byte[] body) throws IOException {
@@ -60,20 +69,22 @@ public class MirrorQueueConsumer {
                 long deliveryTag = envelope.getDeliveryTag();
 
                 try {
+                    // 打印接收到的消息信息
                     System.out.println("[镜像队列] 接收消息: '" + message + "'");
                     System.out.println("[镜像队列] 队列名称: " + MIRROR_QUEUE_NAME);
                     System.out.println("[镜像队列] 路由键: " + envelope.getRoutingKey());
 
-                    // 模拟消息处理
+                    // 模拟消息处理过程，暂停2秒
                     TimeUnit.SECONDS.sleep(2);
 
+                    // 打印消息处理完成信息
                     System.out.println("[镜像队列] 消息处理完成: '" + message + "'");
                     System.out.println("----------------------------------------");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
 
-                // 确认消息
+                // 确认消息已被成功处理，从队列中移除
                 channel.basicAck(deliveryTag, false);
             }
         };
